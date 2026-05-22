@@ -1,10 +1,12 @@
 <template>
-  <button :id="id" :class="['btn', { 'btn--light': light }]" @click="$emit('click')">
+  <NButton :id="id" :class="['btn', { 'btn--light': light }]" @click="$emit('click')">
     <slot>{{ label }}</slot>
-  </button>
+  </NButton>
 </template>
 
 <script setup lang="ts">
+import { NButton } from 'naive-ui'
+
 const props = defineProps<{ id?: string; light?: boolean; label?: string }>()
 defineEmits(['click'])
 </script>

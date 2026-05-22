@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import RoleBasedNavbar from '@/components/organisms/RoleBasedNavbar'
+import RoleBasedNavbar from '@/components/organisms/RoleBasedNavbar/index.vue'
 </script>
 
 <template>
@@ -8,3 +8,4 @@ import RoleBasedNavbar from '@/components/organisms/RoleBasedNavbar'
     <NuxtPage />
   </div>
 </template>
+Restart TypeScript Server
