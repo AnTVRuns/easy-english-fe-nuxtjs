@@ -1,5 +1,10 @@
+<script setup lang="ts">
+import RoleBasedNavbar from '@/components/organisms/RoleBasedNavbar'
+</script>
+
 <template>
   <div class="app-shell">
-    <slot />
+    <RoleBasedNavbar />
+    <NuxtPage />
   </div>
 </template>
