@@ -1,0 +1,1 @@
+Pinia/Vuex store placeholders
