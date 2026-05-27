@@ -5,7 +5,7 @@ import RoleBasedNavbar from '@/components/organisms/RoleBasedNavbar/index.vue'
 <template>
   <div class="app-shell">
     <RoleBasedNavbar />
-    <NuxtPage />
+    <slot />
   </div>
 </template>
 Restart TypeScript Server
